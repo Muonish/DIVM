@@ -79,7 +79,7 @@ namespace WindowsFormsAppDIVM
                             break;
                         default:
                             for (int i = 0; i < N; i++)
-                                textBox1.Text += "x[" + Convert.ToString(i) + "] = " + Convert.ToString(gauss.answer[i]) + Environment.NewLine;
+                                textBox1.Text += "x[" + Convert.ToString(i) + "] = " + Convert.ToString(Math.Round(gauss.answer[i],2)) + Environment.NewLine;
                             break;
                     }
                 }
