@@ -98,9 +98,9 @@ namespace WindowsForms_Integr_Diff
         }
         //public double funcForIntegration(double x)
         //{
-        //    //double denominator = 2 * Math.Sin(x);
-        //    //if ((Math.Abs(denominator) <= 0.00001) && (denominator > 0)) return 0;
-        //    return x*x*Math.Exp(-x);
+        //    double denominator = Math.Cos(x) * Math.Cos(x);
+        //    if ((Math.Abs(denominator) <= 0.00001) && (denominator > 0)) return 0;
+        //    return 1 / denominator;
         //}
         public void ErrorMessage(double x)
         {

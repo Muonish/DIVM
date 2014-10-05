@@ -75,7 +75,7 @@ namespace WindowsForms_Integr_Diff
                 if (result == 0) 
                     labelResult.Text = "Try to change the interval\nof integration." ;
                 else
-                    labelResult.Text = "F(x) = " + Convert.ToString(Math.Round(result, 4));      
+                    labelResult.Text = "F(b) - F(a) = " + Convert.ToString(Math.Round(result, 4));      
             }
         }
 
@@ -93,7 +93,7 @@ namespace WindowsForms_Integr_Diff
                 if (result == 0)
                     labelResult.Text = "Try to change the interval\nof integration.";
                 else
-                    labelResult.Text = "F(x) = " + Convert.ToString(Math.Round(result, 4));
+                    labelResult.Text = "F(b) - F(a) = " + Convert.ToString(Math.Round(result, 4));
             }
         }
     }
